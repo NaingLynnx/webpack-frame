@@ -5,10 +5,17 @@
 /* ==========================================================================
   Foundation
 ========================================================================== */
+@import 'foundation/reset';
+@import 'foundation/color';
+@import 'foundation/fonts';
+@import 'foundation/bases';
 
 /* ==========================================================================
-  Foundation
+  Layout
 ========================================================================== */
+@import 'layout/header';
+@import 'layout/layout';
+@import 'layout/footer';
 
 /* ==========================================================================
   Project
@@ -17,6 +24,13 @@
 /* ==========================================================================
   Component
 ========================================================================== */
-h1 {
-  color: #f00;
-}
+
+@import 'object/component/btn';
+@import 'object/component/c-card';
+@import 'object/component/title';
+
+@import 'object/project/mainvisual';
+@import 'object/project/top';
+@import 'object/project/bloc';
+@import 'object/project/case';
+

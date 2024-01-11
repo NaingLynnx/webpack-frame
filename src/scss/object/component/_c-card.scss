@@ -1,0 +1,42 @@
+.c-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    // padding: 50px;
+
+    .txt-box{
+        margin: 0 auto;
+    //   width: 700px;
+    //   padding: 10px;
+
+        h3{
+            width: 468px;
+            font-family: $font-lato;
+            font-size: 50px;
+            color: #000000;
+            margin-bottom: 20px;
+        }
+
+        p{
+            font-family: $font-lato;
+            font-size: 16px;
+            color: $listcolor;
+            color: #000000;
+            opacity: 50%;
+            margin-bottom: 20px;
+
+        }
+
+        &--flower{
+
+        }
+
+    }
+
+    .img-box{
+        width: 700px;
+        height: 601px;
+    }
+   
+}

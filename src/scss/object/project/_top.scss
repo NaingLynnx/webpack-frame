@@ -1,0 +1,49 @@
+.activity-content{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    .card-box{
+       width: calc(1080px / 3 - 15px);
+        height: 330px;
+        justify-content: flex-start;
+        background-color: #fff;
+        margin: 0 14px 20px 0;
+        margin-bottom: 20px;
+        &__inner{
+        
+            width: 251px;
+            height: 263px;
+            margin: 50px auto;
+            // padding: 30px 50px;
+    
+            h4{
+                font-family: $font-lato;
+                font-size: 18px;
+                opacity: 80%;
+                text-align: center;
+                margin-top: 10px;
+            }
+            p{
+                font-family: $font-poppins;
+                font-size: 18px;
+                opacity: 65%;
+                text-align: center;
+                margin-top: 10px;
+            }
+            a{
+        
+                display: block;
+                text-align: center;
+                img{
+                    
+                    width: 88px;
+                    height: 88px;
+                    // display: block;
+                    border-radius: 50%;
+                    background-color: #0000ff;
+                }
+            }
+        }
+    }
+}

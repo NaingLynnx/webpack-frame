@@ -1,0 +1,30 @@
+.c-btn{
+    width: 217px;
+    margin: 0 auto;
+   
+
+    a{
+        font-family: $font-lato;
+        font-size: 14px;
+        border-radius: 20px;
+        border: 1px solid $btncolor;
+        background-color: $btncolor;
+        width: 100%;
+        height: 45px;
+        box-sizing: border-box;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        color: $listcolor;
+
+        &:hover {
+            opacity: .8;
+          }
+        
+    }
+
+    &--view{
+        margin: 0;
+
+    }
+}
