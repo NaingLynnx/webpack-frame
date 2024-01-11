@@ -32,16 +32,26 @@
                 margin-top: 10px;
             }
             a{
-        
+                background-color: $btncolor;
+                border: 1px solid $btncolor;
+                height: 35px;
                 display: block;
                 text-align: center;
+                margin: 0 auto;
+                width: 35px;
+                margin-bottom: 20px;
+                padding: 20px;
+                border-radius: 50%;
                 img{
                     
-                    width: 88px;
-                    height: 88px;
+                    // width: 88px;
+                    // height: 88px;
                     // display: block;
-                    border-radius: 50%;
-                    background-color: #0000ff;
+                    // object-fit: cover;
+                    // align-items: center;
+                    // border: 1px solid #325DFF;
+                    // border-radius: 50%;
+                    // background-color: #0000ff;
                 }
             }
         }
